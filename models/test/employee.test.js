@@ -1,5 +1,5 @@
 const expect = require("chai").expect;
-const Employee = require("../employee.model");
+const Employee = require("../employees.model");
 
 describe("Employee", () => {
   it("should throw an error if no args", () => {
